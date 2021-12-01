@@ -4,7 +4,10 @@
     {
         public string Name { get; set; }
 
-        public bool IsOrganic { get; set; }
+        public bool IsOrganic
+         { 
+            get;set;
+                }
 
         public ResidueType(string name, bool isOrganic)
         {
